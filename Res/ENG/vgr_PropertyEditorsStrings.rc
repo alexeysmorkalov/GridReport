@@ -1,0 +1,8 @@
+#include "..\..\Source\vgr_StringIDs.pas"
+
+STRINGTABLE
+{
+  svgrResStringsBase + svgrid_vgr_PropertyEditors_EditWorkbook, "Edit workbook..."
+  svgrResStringsBase + svgrid_vgr_PropertyEditors_EditTemplate, "Edit report template..."
+  svgrResStringsBase + svgrid_vgr_PropertyEditors_AliasManager, "Edit aliases..."
+}

@@ -1,0 +1,28 @@
+#include "..\..\Source\vgr_StringIDs.pas"
+
+STRINGTABLE
+{
+  svgrResStringsBase + svgrid_vgr_AliasManagerDesigner_NodeValueTypeNull, "Null"
+  svgrResStringsBase + svgrid_vgr_AliasManagerDesigner_NodeValueTypeInteger, "Целого типа"
+  svgrResStringsBase + svgrid_vgr_AliasManagerDesigner_NodeValueTypeExtended, "Вещественного"
+  svgrResStringsBase + svgrid_vgr_AliasManagerDesigner_NodeValueTypeString, "Строка"
+  svgrResStringsBase + svgrid_vgr_AliasManagerDesigner_NodeValueTypeDateTime, "Дата/время"
+  svgrResStringsBase + svgrid_vgr_AliasManagerDesigner_ErrorNodeNameEmpty, "Пожалуйста, введите имя ветви"
+  svgrResStringsBase + svgrid_vgr_AliasManagerDesigner_ErrorNodeNameNotUnique, "Псевдоним должен быть уникальным"
+  svgrResStringsBase + svgrid__vgr_AliasManagerDesigner__vgrAliasManagerDesignerForm__Caption, "Псевдонимы..."
+  svgrResStringsBase + svgrid__vgr_AliasManagerDesigner__Label1__Caption, "&Имя:"
+  svgrResStringsBase + svgrid__vgr_AliasManagerDesigner__bClose__Caption, "Закрыть"
+  svgrResStringsBase + svgrid__vgr_AliasManagerDesigner__bCancel__Caption, "&Отмена"
+  svgrResStringsBase + svgrid__vgr_AliasManagerDesigner__bApply__Caption, "При&менить"
+  svgrResStringsBase + svgrid__vgr_AliasManagerDesigner__bOptions__Caption, "Наст&ройки"
+  svgrResStringsBase + svgrid__vgr_AliasManagerDesigner__bAdd__Caption, "&Добавить"
+  svgrResStringsBase + svgrid__vgr_AliasManagerDesigner__bAddChild__Caption, "Добавить &потомка"
+  svgrResStringsBase + svgrid__vgr_AliasManagerDesigner__bDelete__Caption, "&Удалить"
+  svgrResStringsBase + svgrid__vgr_AliasManagerDesigner__rbUnknown__Caption, "&Неизвестная"
+  svgrResStringsBase + svgrid__vgr_AliasManagerDesigner__rbCustom__Caption, "&Составная"
+  svgrResStringsBase + svgrid__vgr_AliasManagerDesigner__rbVariable__Caption, "П&еременная"
+  svgrResStringsBase + svgrid__vgr_AliasManagerDesigner__mShowAllComponents__Caption, "Отобразить все компоненты"
+  svgrResStringsBase + svgrid__vgr_AliasManagerDesigner__mShowDatasetsOnly__Caption, "Отобразить только наборы данных"
+  svgrResStringsBase + svgrid__vgr_AliasManagerDesigner__mImport__Caption, "Импорт"
+}
+ 

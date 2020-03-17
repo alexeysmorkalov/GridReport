@@ -1,0 +1,31 @@
+#include "..\..\Source\vgr_StringIDs.pas"
+
+STRINGTABLE
+{
+  svgrResStringsBase + svgrid_vgr_PrintSetupDialog_InvalidPagesRange, "Некорректный диапазон страниц"
+  svgrResStringsBase + svgrid_vgr_PrintSetupDialog_InvalidPagesList, "Некорректный набор страниц"
+  svgrResStringsBase + svgrid_vgr_PrintSetupDialog_PrintWorksheetNotDefined, "Не выбран лист для печати"
+  svgrResStringsBase + svgrid__vgr_PrintSetupDialog__vgrPrintSetupDialogForm__Caption, "Печать"
+  svgrResStringsBase + svgrid__vgr_PrintSetupDialog__vgrBevelLabel1__Caption, "Принтер: "
+  svgrResStringsBase + svgrid__vgr_PrintSetupDialog__vgrBevelLabel2__Caption, "Страницы: "
+  svgrResStringsBase + svgrid__vgr_PrintSetupDialog__vgrBevelLabel3__Caption, "Копии: "
+  svgrResStringsBase + svgrid__vgr_PrintSetupDialog__vgrBevelLabel4__Caption, "Печатать: "
+  svgrResStringsBase + svgrid__vgr_PrintSetupDialog__Label1__Caption, "&Имя:"
+  svgrResStringsBase + svgrid__vgr_PrintSetupDialog__Label2__Caption, "Заметки:"
+  svgrResStringsBase + svgrid__vgr_PrintSetupDialog__Label3__Caption, "Тип:"
+  svgrResStringsBase + svgrid__vgr_PrintSetupDialog__Label4__Caption, "Состояние:"
+  svgrResStringsBase + svgrid__vgr_PrintSetupDialog__Label5__Caption, "Число &копий:"
+  svgrResStringsBase + svgrid__vgr_PrintSetupDialog__Label6__Caption, "с"
+  svgrResStringsBase + svgrid__vgr_PrintSetupDialog__Label7__Caption, "по"
+  svgrResStringsBase + svgrid__vgr_PrintSetupDialog__bProperties__Caption, "Сво&йства..."
+  svgrResStringsBase + svgrid__vgr_PrintSetupDialog__bOk__Caption, "ОК"
+  svgrResStringsBase + svgrid__vgr_PrintSetupDialog__bCancel__Caption, "Отмена"
+  svgrResStringsBase + svgrid__vgr_PrintSetupDialog__rbWorksheetModeAll__Caption, "Всю кни&гу"
+  svgrResStringsBase + svgrid__vgr_PrintSetupDialog__rbWorksheetModeOne__Caption, "Один &лист:"
+  svgrResStringsBase + svgrid__vgr_PrintSetupDialog__rbPageModeAll__Caption, "&Все"
+  svgrResStringsBase + svgrid__vgr_PrintSetupDialog__rbPageModeRange__Caption, "&Диапазон:"
+  svgrResStringsBase + svgrid__vgr_PrintSetupDialog__rbPageModeCurrent__Caption, "&Текущая"
+  svgrResStringsBase + svgrid__vgr_PrintSetupDialog__rbPageModeList__Caption, "&Номера:"
+  svgrResStringsBase + svgrid__vgr_PrintSetupDialog__cbCollate__Caption, "&Разобрать"
+}
+ 

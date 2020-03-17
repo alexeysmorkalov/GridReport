@@ -1,0 +1,204 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="vgr_GridReportBCB6.bpl"/>
+    <OBJFILES value="vgr_GridReportBCB6.obj vgr_AXScript.obj vgr_AliasManager.obj 
+      vgr_AliasManagerDesigner.obj vgr_FormLocalizer.obj vgr_Localize.obj 
+      vgr_Writers.obj vgr_BandFormatDialog.obj vgr_BIFF8_Types.obj 
+      vgr_CellPropertiesDialog.obj vgr_CommonClasses.obj vgr_Controls.obj 
+      vgr_CopyMoveSheetDialog.obj vgr_DataStorage.obj vgr_DataStorageRecords.obj 
+      vgr_DataStorageTypes.obj vgr_Dialogs.obj vgr_Event.obj vgr_ExcelConsts.obj 
+      vgr_ExcelFormula.obj vgr_ExcelFormula_iftab.obj vgr_ExcelTypes.obj 
+      vgr_Form.obj vgr_Keyboard.obj vgr_PageMaker.obj vgr_PageProperties.obj 
+      vgr_PageSetupDialog.obj vgr_PrintEngine.obj vgr_Printer.obj 
+      vgr_PrinterComboBox.obj vgr_PrintSetupDialog.obj vgr_Report.obj 
+      vgr_ReportDesigner.obj vgr_ReportFunctions.obj vgr_ReportGUIFunctions.obj 
+      vgr_ReportOptionsDialog.obj vgr_RowColSizeDialog.obj 
+      vgr_ScriptComponentsProvider.obj vgr_ScriptControl.obj vgr_ScriptEdit.obj 
+      vgr_ScriptEventEditDialog.obj vgr_ScriptParser.obj vgr_ScriptUtils.obj 
+      vgr_SheetFormatDialog.obj vgr_StringIDs.obj vgr_WorkbookDesigner.obj 
+      vgr_WorkbookGrid.obj vgr_WorkbookPainter.obj vgr_WorkbookPreview.obj 
+      vgr_WorkbookPreviewForm.obj vgr_FormulaCalculator.obj 
+      vgr_WBScriptConstants.obj vgr_ReportAdd.obj vgr_ScriptDispIDs.obj 
+      vgr_ScriptGlobalFunctions.obj vgr_HeaderFooterOptionsDialog.obj"/>
+    <RESFILES value="vgr_GridReportBCB6.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) vgr_AliasManagerDesigner.dfm vgr_BandFormatDialog.dfm 
+      vgr_CellPropertiesDialog.dfm vgr_CopyMoveSheetDialog.dfm 
+      vgr_PageSetupDialog.dfm vgr_PrintSetupDialog.dfm vgr_ReportDesigner.dfm 
+      vgr_ReportOptionsDialog.dfm vgr_RowColSizeDialog.dfm 
+      vgr_ScriptEventEditDialog.dfm vgr_SheetFormatDialog.dfm 
+      vgr_WorkbookDesigner.dfm vgr_WorkbookPreviewForm.dfm vgr_ReportAdd.dfm 
+      vgr_HeaderFooterOptionsDialog.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value=""/>
+    <SPARELIBS value="rtl.lib"/>
+    <PACKAGES value="rtl.bpi vcl.bpi dbrtl.bpi vclx.bpi bcbsmp.bpi bcbie.bpi 
+      vgr_CommonControlsBCB6.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value=""/>
+    <SYSDEFINES value="_RTLDLL;NO_STRICT;USEPACKAGES"/>
+    <MAINSOURCE value="vgr_GridReportBCB6.cpp"/>
+    <INCLUDEPATH value="$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib;..\..\CommonControls\Source"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-I$(BCB)\include -I$(BCB)\include\vcl -src_suffix cpp -boa"/>
+    <CFLAG1 value="-O2 -H=$(BCB)\lib\vcl60.csm -Hc -Vx -Ve -X- -a8 -b- -k- -vi -c -tWM"/>
+    <PFLAGS value="-$Y- -$L- -$D- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zn"/>
+    <LFLAGS value="-D&quot;vtkTools GridReport (runtime)&quot; -aa -Tpp -Gpr -x -Gn -Gl -Gi"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0pkg32.obj $(PACKAGES) Memmgr.Lib sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mti.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="vgr_GridReportBCB6.res" FORMNAME="" UNITNAME="vgr_GridReportBCB6.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vgr_GridReportBCB6.cpp" FORMNAME="" UNITNAME="vgr_GridReportBCB6" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="rtl.bpi" FORMNAME="" UNITNAME="rtl" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vcl.bpi" FORMNAME="" UNITNAME="vcl" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="dbrtl.bpi" FORMNAME="" UNITNAME="dbrtl" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vclx.bpi" FORMNAME="" UNITNAME="vclx" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vgr_AXScript.pas" FORMNAME="" UNITNAME="vgr_AXScript" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vgr_AliasManager.pas" FORMNAME="" UNITNAME="vgr_AliasManager" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vgr_AliasManagerDesigner.pas" FORMNAME="vgr_AliasManagerDesigner.dfm" UNITNAME="vgr_AliasManagerDesigner" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vgr_FormLocalizer.pas" FORMNAME="" UNITNAME="vgr_FormLocalizer" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vgr_Localize.pas" FORMNAME="" UNITNAME="vgr_Localize" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vgr_Writers.pas" FORMNAME="" UNITNAME="vgr_Writers" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vgr_BandFormatDialog.pas" FORMNAME="vgr_BandFormatDialog.dfm" UNITNAME="vgr_BandFormatDialog" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vgr_BIFF8_Types.pas" FORMNAME="" UNITNAME="vgr_BIFF8_Types" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vgr_CellPropertiesDialog.pas" FORMNAME="CellPropertiesDialog.dfm" UNITNAME="vgr_CellPropertiesDialog" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vgr_CommonClasses.pas" FORMNAME="" UNITNAME="vgr_CommonClasses" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vgr_Controls.pas" FORMNAME="" UNITNAME="vgr_Controls" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vgr_CopyMoveSheetDialog.pas" FORMNAME="vgr_CopyMoveSheetDialog.dfm" UNITNAME="vgr_CopyMoveSheetDialog" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vgr_DataStorage.pas" FORMNAME="" UNITNAME="vgr_DataStorage" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vgr_DataStorageRecords.pas" FORMNAME="" UNITNAME="vgr_DataStorageRecords" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vgr_DataStorageTypes.pas" FORMNAME="" UNITNAME="vgr_DataStorageTypes" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vgr_Dialogs.pas" FORMNAME="" UNITNAME="vgr_Dialogs" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vgr_Event.pas" FORMNAME="" UNITNAME="vgr_Event" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vgr_ExcelConsts.pas" FORMNAME="" UNITNAME="vgr_ExcelConsts" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vgr_ExcelFormula.pas" FORMNAME="" UNITNAME="vgr_ExcelFormula" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vgr_ExcelFormula_iftab.pas" FORMNAME="" UNITNAME="vgr_ExcelFormula_iftab" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vgr_ExcelTypes.pas" FORMNAME="" UNITNAME="vgr_ExcelTypes" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vgr_Form.pas" FORMNAME="" UNITNAME="vgr_Form" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vgr_Keyboard.pas" FORMNAME="" UNITNAME="vgr_Keyboard" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vgr_PageMaker.pas" FORMNAME="" UNITNAME="vgr_PageMaker" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vgr_PageProperties.pas" FORMNAME="" UNITNAME="vgr_PageProperties" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vgr_PageSetupDialog.pas" FORMNAME="vgr_PageSetupDialog.dfm" UNITNAME="vgr_PageSetupDialog" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vgr_PrintEngine.pas" FORMNAME="" UNITNAME="vgr_PrintEngine" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vgr_Printer.pas" FORMNAME="" UNITNAME="vgr_Printer" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vgr_PrinterComboBox.pas" FORMNAME="" UNITNAME="vgr_PrinterComboBox" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vgr_PrintSetupDialog.pas" FORMNAME="vgr_PrintSetupDialog.dfm" UNITNAME="vgr_PrintSetupDialog" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vgr_Report.pas" FORMNAME="" UNITNAME="vgr_Report" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vgr_ReportDesigner.pas" FORMNAME="vgr_ReportDesigner.dfm" UNITNAME="vgr_ReportDesigner" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vgr_ReportFunctions.pas" FORMNAME="" UNITNAME="vgr_ReportFunctions" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vgr_ReportGUIFunctions.pas" FORMNAME="" UNITNAME="vgr_ReportGUIFunctions" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vgr_ReportOptionsDialog.pas" FORMNAME="vgr_ReportOptionsDialog.dfm" UNITNAME="vgr_ReportOptionsDialog" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vgr_RowColSizeDialog.pas" FORMNAME="vgr_RowColSizeDialog.dfm" UNITNAME="vgr_RowColSizeDialog" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vgr_ScriptComponentsProvider.pas" FORMNAME="" UNITNAME="vgr_ScriptComponentsProvider" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vgr_ScriptControl.pas" FORMNAME="" UNITNAME="vgr_ScriptControl" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vgr_ScriptEdit.pas" FORMNAME="" UNITNAME="vgr_ScriptEdit" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vgr_ScriptEventEditDialog.pas" FORMNAME="vgr_ScriptEventEditDialog.dfm" UNITNAME="vgr_ScriptEventEditDialog" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vgr_ScriptParser.pas" FORMNAME="" UNITNAME="vgr_ScriptParser" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vgr_ScriptUtils.pas" FORMNAME="" UNITNAME="vgr_ScriptUtils" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vgr_SheetFormatDialog.pas" FORMNAME="vgr_SheetFormatDialog.dfm" UNITNAME="vgr_SheetFormatDialog" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vgr_StringIDs.pas" FORMNAME="" UNITNAME="vgr_StringIDs" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vgr_WorkbookDesigner.pas" FORMNAME="vgr_WorkbookDesigner.dfm" UNITNAME="vgr_WorkbookDesigner" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vgr_WorkbookGrid.pas" FORMNAME="" UNITNAME="vgr_WorkbookGrid" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vgr_WorkbookPainter.pas" FORMNAME="" UNITNAME="vgr_WorkbookPainter" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vgr_WorkbookPreview.pas" FORMNAME="" UNITNAME="vgr_WorkbookPreview" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vgr_WorkbookPreviewForm.pas" FORMNAME="vgr_WorkbookPreviewForm.dfm" UNITNAME="vgr_WorkbookPreviewForm" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="bcbsmp.bpi" FORMNAME="" UNITNAME="bcbsmp" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="bcbie.bpi" FORMNAME="" UNITNAME="bcbie" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vgr_CommonControlsBCB6.bpi" FORMNAME="" UNITNAME="vgr_CommonControlsBCB6" CONTAINERID="BPITool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vgr_FormulaCalculator.pas" FORMNAME="" UNITNAME="vgr_FormulaCalculator" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vgr_WBScriptConstants.pas" FORMNAME="" UNITNAME="vgr_WBScriptConstants" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vgr_ReportAdd.pas" FORMNAME="vgrReportAddForm" UNITNAME="vgr_ReportAdd" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vgr_ScriptDispIDs.pas" FORMNAME="" UNITNAME="vgr_ScriptDispIDs" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vgr_ScriptGlobalFunctions.pas" FORMNAME="" UNITNAME="vgr_ScriptGlobalFunctions" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="vgr_HeaderFooterOptionsDialog.pas" FORMNAME="vgrHeaderFooterOptionsDialogForm" UNITNAME="vgr_HeaderFooterOptionsDialog" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1049
+CodePage=1251
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+
+[Linker]
+LibPrefix=
+LibSuffix=
+LibVersion=
+  </IDEOPTIONS>
+</PROJECT>

@@ -1,0 +1,34 @@
+#include "..\..\Source\vgr_StringIDs.pas"
+
+STRINGTABLE
+{
+  svgrResStringsBase + svgrid_Common_MenuItemCut, "&Вырезать"
+  svgrResStringsBase + svgrid_Common_MenuItemCopy, "&Копировать"
+  svgrResStringsBase + svgrid_Common_MenuItemPaste, "Вст&авить"
+  svgrResStringsBase + svgrid_Common_Mm, "мм"
+  svgrResStringsBase + svgrid_Common_Inch, "in"
+
+  svgrResStringsBase + svgrid_Common_ColorButtonOther, "Другой..."
+  svgrResStringsBase + svgrid_Common_ColorButtonNone, "Прозрачный"
+
+  svgrResStringsBase + svgrid_Common_vgrbsSolid, "Сплошной"
+  svgrResStringsBase + svgrid_Common_vgrbsDash, "Штрихи"
+  svgrResStringsBase + svgrid_Common_vgrbsDot, "Точки"
+  svgrResStringsBase + svgrid_Common_vgrbsDashDot, "Штрих точка"
+  svgrResStringsBase + svgrid_Common_vgrbsDashDotDot, "Штрих точка точка"
+
+  svgrResStringsBase + svgrid_Common_bsSolid, "Сплошная"
+  svgrResStringsBase + svgrid_Common_bsClear, "Отсутствует"
+  svgrResStringsBase + svgrid_Common_bsHorizontal, "Горизонтальная"
+  svgrResStringsBase + svgrid_Common_bsVertical, "Вертикальная"
+  svgrResStringsBase + svgrid_Common_bsFDiagonal, "Диагональная"
+  svgrResStringsBase + svgrid_Common_bsBDiagonal, "Обратная диагональная"
+  svgrResStringsBase + svgrid_Common_bsCross, "Пересечения"
+  svgrResStringsBase + svgrid_Common_bsDiagCross, "Диагональные пересечения"
+
+  svgrResStringsBase + svgrid_Common_vgruMms, "Миллиметры"
+  svgrResStringsBase + svgrid_Common_vgruCentimeters, "Сантиметры"
+  svgrResStringsBase + svgrid_Common_vgruInches, "Дюймы"
+  svgrResStringsBase + svgrid_Common_vgruTenthsMMs, "1/10 миллиметра"
+  svgrResStringsBase + svgrid_Common_vgruPixels, "Пикселы"
+}

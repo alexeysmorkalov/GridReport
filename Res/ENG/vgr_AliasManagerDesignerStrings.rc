@@ -1,0 +1,28 @@
+#include "..\..\Source\vgr_StringIDs.pas"
+
+STRINGTABLE
+{
+  svgrResStringsBase + svgrid_vgr_AliasManagerDesigner_NodeValueTypeNull, "Null"
+  svgrResStringsBase + svgrid_vgr_AliasManagerDesigner_NodeValueTypeInteger, "Integer"
+  svgrResStringsBase + svgrid_vgr_AliasManagerDesigner_NodeValueTypeExtended, "Extended"
+  svgrResStringsBase + svgrid_vgr_AliasManagerDesigner_NodeValueTypeString, "String"
+  svgrResStringsBase + svgrid_vgr_AliasManagerDesigner_NodeValueTypeDateTime, "Date time"
+  svgrResStringsBase + svgrid_vgr_AliasManagerDesigner_ErrorNodeNameEmpty, "Please specify alias node name"
+  svgrResStringsBase + svgrid_vgr_AliasManagerDesigner_ErrorNodeNameNotUnique, "Alias node name not unique"
+  svgrResStringsBase + svgrid__vgr_AliasManagerDesigner__vgrAliasManagerDesignerForm__Caption, "Aliases..."
+  svgrResStringsBase + svgrid__vgr_AliasManagerDesigner__Label1__Caption, "&Name:"
+  svgrResStringsBase + svgrid__vgr_AliasManagerDesigner__bClose__Caption, "Close"
+  svgrResStringsBase + svgrid__vgr_AliasManagerDesigner__bCancel__Caption, "&Cancel"
+  svgrResStringsBase + svgrid__vgr_AliasManagerDesigner__bApply__Caption, "App&ly"
+  svgrResStringsBase + svgrid__vgr_AliasManagerDesigner__bOptions__Caption, "&Options"
+  svgrResStringsBase + svgrid__vgr_AliasManagerDesigner__bAdd__Caption, "&Add"
+  svgrResStringsBase + svgrid__vgr_AliasManagerDesigner__bAddChild__Caption, "A&dd child"
+  svgrResStringsBase + svgrid__vgr_AliasManagerDesigner__bDelete__Caption, "&Delete"
+  svgrResStringsBase + svgrid__vgr_AliasManagerDesigner__rbUnknown__Caption, "&Unknown"
+  svgrResStringsBase + svgrid__vgr_AliasManagerDesigner__rbCustom__Caption, "C&ustom"
+  svgrResStringsBase + svgrid__vgr_AliasManagerDesigner__rbVariable__Caption, "&Variable"
+  svgrResStringsBase + svgrid__vgr_AliasManagerDesigner__mShowAllComponents__Caption, "Show all components"
+  svgrResStringsBase + svgrid__vgr_AliasManagerDesigner__mShowDatasetsOnly__Caption, "Show datasets only"
+  svgrResStringsBase + svgrid__vgr_AliasManagerDesigner__mImport__Caption, "Import"
+}
+ 

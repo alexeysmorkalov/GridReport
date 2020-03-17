@@ -1,0 +1,21 @@
+#include "..\..\Source\vgr_StringIDs.pas"
+
+STRINGTABLE
+{
+  svgrResStringsBase + svgrid_vgr_WorkbookPreview_MenuItemZoomPageWidth, "По ширине страницы"
+  svgrResStringsBase + svgrid_vgr_WorkbookPreview_MenuItemZoomWholePage, "Страница целиком"
+  svgrResStringsBase + svgrid_vgr_WorkbookPreview_MenuItemZoom100Percent, "В натуральную величину"
+  svgrResStringsBase + svgrid_vgr_WorkbookPreview_MenuItemPriorPage, "Предыдущая страница"
+  svgrResStringsBase + svgrid_vgr_WorkbookPreview_MenuItemNextPage, "Следующая страница"
+  svgrResStringsBase + svgrid_vgr_WorkbookPreview_MenuItemPrint, "Печать..."
+  svgrResStringsBase + svgrid_vgr_WorkbookPreview_MenuItemPageParams, "Параметры страницы..."
+  svgrResStringsBase + svgrid_vgr_WorkbookPreview_MenuItemZoomInTool, "Увеличить"
+  svgrResStringsBase + svgrid_vgr_WorkbookPreview_MenuItemZoomOutTool, "Уменьшить"
+  svgrResStringsBase + svgrid_vgr_WorkbookPreview_MenuItemHandTool, "Таскать"
+  svgrResStringsBase + svgrid_vgr_WorkbookPreview_MenuItemNoneTool, "Курсор"  
+  svgrResStringsBase + svgrid_vgr_WorkbookPreview_Hint_LeftMargin, "Левое поле"
+  svgrResStringsBase + svgrid_vgr_WorkbookPreview_Hint_RightMargin, "Правое поле"
+  svgrResStringsBase + svgrid_vgr_WorkbookPreview_Hint_TopMargin, "Верхнее поле"
+  svgrResStringsBase + svgrid_vgr_WorkbookPreview_Hint_BottomMargin, "Нижнее поле"
+  svgrResStringsBase + svgrid_vgr_WorkbookPreview_MenuItemZoomTwoPages, "Две страницы"
+}

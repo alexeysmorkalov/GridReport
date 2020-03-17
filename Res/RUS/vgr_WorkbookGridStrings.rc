@@ -1,0 +1,22 @@
+#include "..\..\Source\vgr_StringIDs.pas"
+
+STRINGTABLE
+{
+  svgrResStringsBase + svgrid_vgr_WorkbookGrid_MenuItemDeleteRows, "Удалить ст&роки"
+  svgrResStringsBase + svgrid_vgr_WorkbookGrid_MenuItemDeleteColumns, "Удалить &столбцы"
+  svgrResStringsBase + svgrid_vgr_WorkbookGrid_MenuItemCellProperties, "Формат &ячеек..."
+  svgrResStringsBase + svgrid_vgr_WorkbookGrid_MergeWarning, "Выделенная область содержит несколько значений данных. Объединение ячеек приведет к потере всех значений, кроме левого верхнего."
+  svgrResStringsBase + svgrid_vgr_WorkbookGrid_MenuItemPrintAsPageHeader, "Печатать как верхний колонтитул"
+  svgrResStringsBase + svgrid_vgr_WorkbookGrid_MenuItemPrintAsPageFooter, "Печатать как нижний колонтитул"
+  svgrResStringsBase + svgrid_vgr_WorkbookGrid_MenuItemPrintWithNextSection, "Печатать со следующей секцией"
+  svgrResStringsBase + svgrid_vgr_WorkbookGrid_MenuItemPrintWithPreviosSection, "Печатать с предыдущей секцией"
+  svgrResStringsBase + svgrid_vgr_WorkbookGrid_MenuItemBreakPageAfter, "&Разрыв страницы"
+  svgrResStringsBase + svgrid_vgr_WorkbookGrid_MenuItemRowsAutoHeight, "Автоподбор высоты строк"
+  svgrResStringsBase + svgrid_vgr_WorkbookGrid_MenuItemColumnsAutoWidth, "Автоподбор ширины столбцов"
+  svgrResStringsBase + svgrid_vgr_WorkbookGrid_MenuItemAddWorksheet, "&Добавить лист"
+  svgrResStringsBase + svgrid_vgr_WorkbookGrid_MenuItemInsertWorksheet, "&Вставить лист"
+  svgrResStringsBase + svgrid_vgr_WorkbookGrid_MenuItemCopyMoveWorksheet, "Пере&местить/скопировать..."
+  svgrResStringsBase + svgrid_vgr_WorkbookGrid_MenuItemDeleteWorksheet, "&Удалить..."
+  svgrResStringsBase + svgrid_vgr_WorkbookGrid_MenuItemRenameWorksheet, "Пере&именовать..."
+  svgrResStringsBase + svgrid_vgr_WorkbookGrid_DeleteWorksheetQuestion, "Удалить лист [%s]?"
+}

@@ -1,0 +1,8 @@
+#include "..\..\Source\vgr_StringIDs.pas"
+
+STRINGTABLE
+{
+  svgrResStringsBase + svgrid_vgr_PropertyEditors_EditWorkbook, "Редактировать книгу..."
+  svgrResStringsBase + svgrid_vgr_PropertyEditors_EditTemplate, "Редактировать шаблон отчета..."
+  svgrResStringsBase + svgrid_vgr_PropertyEditors_AliasManager, "Редактировать псевдонимы..."
+}

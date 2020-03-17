@@ -1,0 +1,14 @@
+#include "..\..\Source\vgr_StringIDs.pas"
+
+STRINGTABLE
+{
+  svgrResStringsBase + svgrid__vgr_ReportSheetFormatDialog__vgrReportSheetFormatForm__Caption, "Sheet format"
+  svgrResStringsBase + svgrid__vgr_ReportSheetFormatDialog__gbBounds__Caption, " Generate bounds: "
+  svgrResStringsBase + svgrid__vgr_ReportSheetFormatDialog__cbAutoBounds__Caption, "Auto"
+  svgrResStringsBase + svgrid__vgr_ReportSheetFormatDialog__cbSkipGenerate__Caption, "Skip when report is forming"
+  svgrResStringsBase + svgrid__vgr_ReportSheetFormatDialog__Label1__Caption, "Width (columns):"
+  svgrResStringsBase + svgrid__vgr_ReportSheetFormatDialog__Label2__Caption, "Height (rows):"
+  svgrResStringsBase + svgrid__vgr_ReportSheetFormatDialog__bOk__Caption, "OK"
+  svgrResStringsBase + svgrid__vgr_ReportSheetFormatDialog__bCancel__Caption, "Cancel"
+}
+ 

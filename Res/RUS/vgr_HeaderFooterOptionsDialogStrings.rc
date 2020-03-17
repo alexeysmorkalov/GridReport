@@ -1,0 +1,22 @@
+#include "..\..\Source\vgr_StringIDs.pas"
+
+STRINGTABLE
+{
+  svgrResStringsBase + svgrid__vgr_HeaderFooterOptionsDialog__vgrHeaderFooterOptionsDialogForm__Caption, "Параметры колонтитула"
+  svgrResStringsBase + svgrid__vgr_HeaderFooterOptionsDialog__Label1__Caption, "Слева:"
+  svgrResStringsBase + svgrid__vgr_HeaderFooterOptionsDialog__Label2__Caption, "В центре:"
+  svgrResStringsBase + svgrid__vgr_HeaderFooterOptionsDialog__Label3__Caption, "Справа:"
+  svgrResStringsBase + svgrid__vgr_HeaderFooterOptionsDialog__Label4__Caption, "Чтобы поместить номер страницы, дату, время или заголовок листа установите курсор на место вставки и нажмите нужную кнопку."
+  svgrResStringsBase + svgrid__vgr_HeaderFooterOptionsDialog__Label5__Caption, "Цвет фона:"
+  svgrResStringsBase + svgrid__vgr_HeaderFooterOptionsDialog__bLeftFont__Caption, "Шрифт..."
+  svgrResStringsBase + svgrid__vgr_HeaderFooterOptionsDialog__bCenterFont__Caption, "Шрифт..."
+  svgrResStringsBase + svgrid__vgr_HeaderFooterOptionsDialog__bRightFont__Caption, "Шрифт..."
+  svgrResStringsBase + svgrid__vgr_HeaderFooterOptionsDialog__bPage__Hint, "Номер страницы"
+  svgrResStringsBase + svgrid__vgr_HeaderFooterOptionsDialog__bPageCount__Hint, "Количество страниц"
+  svgrResStringsBase + svgrid__vgr_HeaderFooterOptionsDialog__bDate__Hint, "Текущая дата"
+  svgrResStringsBase + svgrid__vgr_HeaderFooterOptionsDialog__bTime__Hint, "Текущее время"
+  svgrResStringsBase + svgrid__vgr_HeaderFooterOptionsDialog__bTab__Hint, "Заголовок листа"
+  svgrResStringsBase + svgrid__vgr_HeaderFooterOptionsDialog__bOk__Caption, "OK"
+  svgrResStringsBase + svgrid__vgr_HeaderFooterOptionsDialog__bCancel__Caption, "Отмена"
+}
+ 

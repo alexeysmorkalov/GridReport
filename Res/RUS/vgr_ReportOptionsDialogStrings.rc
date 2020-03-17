@@ -1,0 +1,11 @@
+#include "..\..\Source\vgr_StringIDs.pas"
+
+STRINGTABLE
+{
+  svgrResStringsBase + svgrid__vgr_ReportOptionsDialog__vgrReportOptionsDialogForm__Caption, "ѕараметры рапорта"
+  svgrResStringsBase + svgrid__vgr_ReportOptionsDialog__PScript__Caption, "—крипт"
+  svgrResStringsBase + svgrid__vgr_ReportOptionsDialog__Label1__Caption, "&язык скрипта:"
+  svgrResStringsBase + svgrid__vgr_ReportOptionsDialog__bOk__Caption, "ќ "
+  svgrResStringsBase + svgrid__vgr_ReportOptionsDialog__bCancel__Caption, "ќтмена"
+}
+ 

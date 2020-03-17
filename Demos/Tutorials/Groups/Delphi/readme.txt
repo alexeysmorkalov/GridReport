@@ -1,0 +1,1 @@
+This programm demonstrates how to generate report with grouped data.

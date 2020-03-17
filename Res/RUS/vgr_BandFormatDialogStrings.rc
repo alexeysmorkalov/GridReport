@@ -1,0 +1,25 @@
+#include "..\..\Source\vgr_StringIDs.pas"
+
+STRINGTABLE
+{
+  svgrResStringsBase + svgrid_vgr_BandFormatDialog_InvalidBandName, "Некорректное имя бэнда - [%s]"
+  svgrResStringsBase + svgrid_vgr_BandFormatDialog_InvalidBandStartPos, "Некорректная исходная позиция бэнда - [%s]"
+  svgrResStringsBase + svgrid_vgr_BandFormatDialog_InvalidBandEndPos, "Некорректная конечная позиция бэнда - [%s]"
+  svgrResStringsBase + svgrid_vgr_BandFormatDialog_InvalidBandPosition, "Некорректная позиция бэнда"
+  svgrResStringsBase + svgrid__vgr_BandFormatDialog__vgrBandFormatForm__Caption, "Свойства бэнда"
+  svgrResStringsBase + svgrid__vgr_BandFormatDialog__Label1__Caption, "Label1"
+  svgrResStringsBase + svgrid__vgr_BandFormatDialog__Label2__Caption, "&Имя бэнда:"
+  svgrResStringsBase + svgrid__vgr_BandFormatDialog__Label3__Caption, "&С:"
+  svgrResStringsBase + svgrid__vgr_BandFormatDialog__Label4__Caption, "&По"
+  svgrResStringsBase + svgrid__vgr_BandFormatDialog__Label5__Caption, "&Набор данных:"
+  svgrResStringsBase + svgrid__vgr_BandFormatDialog__Label6__Caption, "Условие &группировки:"
+  svgrResStringsBase + svgrid__vgr_BandFormatDialog__PCommon__Caption, "&Общие"
+  svgrResStringsBase + svgrid__vgr_BandFormatDialog__PData__Caption, "&Данные"
+  svgrResStringsBase + svgrid__vgr_BandFormatDialog__cbSkipGenerate__Caption, "П&ропустить при генерации"
+  svgrResStringsBase + svgrid__vgr_BandFormatDialog__GroupBox1__Caption, " Позиция: "
+  svgrResStringsBase + svgrid__vgr_BandFormatDialog__bOk__Caption, "ОК"
+  svgrResStringsBase + svgrid__vgr_BandFormatDialog__bCancel__Caption, "Отмена"
+  svgrResStringsBase + svgrid__vgr_BandFormatDialog__cbRowColAutoSize__Caption, "&Автоматический размер для строк / колонок"
+  svgrResStringsBase + svgrid__vgr_BandFormatDialog__cbCreateSections__Caption, "&Создавать секции"
+}
+ 

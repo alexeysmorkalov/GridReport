@@ -1,0 +1,31 @@
+#include "..\..\Source\vgr_StringIDs.pas"
+
+STRINGTABLE
+{
+  svgrResStringsBase + svgrid_vgr_PrintSetupDialog_InvalidPagesRange, "Invalid pages range"
+  svgrResStringsBase + svgrid_vgr_PrintSetupDialog_InvalidPagesList, "Invalid pages list"
+  svgrResStringsBase + svgrid_vgr_PrintSetupDialog_PrintWorksheetNotDefined, "Worksheet for print not selected"
+  svgrResStringsBase + svgrid__vgr_PrintSetupDialog__vgrPrintSetupDialogForm__Caption, "Print"
+  svgrResStringsBase + svgrid__vgr_PrintSetupDialog__vgrBevelLabel1__Caption, "Printer: "
+  svgrResStringsBase + svgrid__vgr_PrintSetupDialog__vgrBevelLabel2__Caption, "Page range: "
+  svgrResStringsBase + svgrid__vgr_PrintSetupDialog__vgrBevelLabel3__Caption, "Copies: "
+  svgrResStringsBase + svgrid__vgr_PrintSetupDialog__vgrBevelLabel4__Caption, "Print what: "
+  svgrResStringsBase + svgrid__vgr_PrintSetupDialog__Label1__Caption, "Na&me:"
+  svgrResStringsBase + svgrid__vgr_PrintSetupDialog__Label2__Caption, "Comment:"
+  svgrResStringsBase + svgrid__vgr_PrintSetupDialog__Label3__Caption, "Type:"
+  svgrResStringsBase + svgrid__vgr_PrintSetupDialog__Label4__Caption, "Status:"
+  svgrResStringsBase + svgrid__vgr_PrintSetupDialog__Label5__Caption, "&Number of copies:"
+  svgrResStringsBase + svgrid__vgr_PrintSetupDialog__Label6__Caption, "from"
+  svgrResStringsBase + svgrid__vgr_PrintSetupDialog__Label7__Caption, "to"
+  svgrResStringsBase + svgrid__vgr_PrintSetupDialog__bProperties__Caption, "&Properties..."
+  svgrResStringsBase + svgrid__vgr_PrintSetupDialog__bOk__Caption, "OK"
+  svgrResStringsBase + svgrid__vgr_PrintSetupDialog__bCancel__Caption, "Cancel"
+  svgrResStringsBase + svgrid__vgr_PrintSetupDialog__rbWorksheetModeAll__Caption, "&Entire workbook"
+  svgrResStringsBase + svgrid__vgr_PrintSetupDialog__rbWorksheetModeOne__Caption, "&Single worksheet:"
+  svgrResStringsBase + svgrid__vgr_PrintSetupDialog__rbPageModeAll__Caption, "&All"
+  svgrResStringsBase + svgrid__vgr_PrintSetupDialog__rbPageModeRange__Caption, "&Range:"
+  svgrResStringsBase + svgrid__vgr_PrintSetupDialog__rbPageModeCurrent__Caption, "&Current"
+  svgrResStringsBase + svgrid__vgr_PrintSetupDialog__rbPageModeList__Caption, "Pa&ges:"
+  svgrResStringsBase + svgrid__vgr_PrintSetupDialog__cbCollate__Caption, "C&ollate"
+}
+ 

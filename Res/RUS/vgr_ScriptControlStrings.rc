@@ -1,0 +1,8 @@
+#include "..\..\Source\vgr_StringIDs.pas"
+
+STRINGTABLE
+{
+  svgrResStringsBase + svgrid_vgr_ScriptControl_Error_run_procedure, "Ошибка при выполнении процедуры %s, код %d"
+  svgrResStringsBase + svgrid_vgr_ScriptControl_Error_constant_already_exists, "Константа %s уже существует"
+}
+ 

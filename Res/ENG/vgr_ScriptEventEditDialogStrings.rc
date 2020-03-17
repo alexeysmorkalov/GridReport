@@ -1,0 +1,11 @@
+#include "..\..\Source\vgr_StringIDs.pas"
+
+STRINGTABLE
+{
+  svgrResStringsBase + svgrid__vgr_ScriptEventEditDialog__vgrScriptEventEditForm__Caption, "Define event procedure"
+  svgrResStringsBase + svgrid__vgr_ScriptEventEditDialog__Label1__Caption, "Event &procedure name:"
+  svgrResStringsBase + svgrid__vgr_ScriptEventEditDialog__Label2__Caption, "Event source:"
+  svgrResStringsBase + svgrid__vgr_ScriptEventEditDialog__bOK__Caption, "OK"
+  svgrResStringsBase + svgrid__vgr_ScriptEventEditDialog__bCancel__Caption, "Cancel"
+}
+ 

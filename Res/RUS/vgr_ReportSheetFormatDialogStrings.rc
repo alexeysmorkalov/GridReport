@@ -1,0 +1,14 @@
+#include "..\..\Source\vgr_StringIDs.pas"
+
+STRINGTABLE
+{
+  svgrResStringsBase + svgrid__vgr_ReportSheetFormatDialog__vgrReportSheetFormatForm__Caption, "Параметры листа шаблона сообщения"
+  svgrResStringsBase + svgrid__vgr_ReportSheetFormatDialog__gbBounds__Caption, " Границы: "
+  svgrResStringsBase + svgrid__vgr_ReportSheetFormatDialog__cbAutoBounds__Caption, "Определять автоматически"
+  svgrResStringsBase + svgrid__vgr_ReportSheetFormatDialog__cbSkipGenerate__Caption, "Пропускать при формировании отчета"
+  svgrResStringsBase + svgrid__vgr_ReportSheetFormatDialog__Label1__Caption, "Ширина (колонок):"
+  svgrResStringsBase + svgrid__vgr_ReportSheetFormatDialog__Label2__Caption, "Высота (строк):"
+  svgrResStringsBase + svgrid__vgr_ReportSheetFormatDialog__bOk__Caption, "OK"
+  svgrResStringsBase + svgrid__vgr_ReportSheetFormatDialog__bCancel__Caption, "Отмена"
+}
+ 

@@ -1,0 +1,12 @@
+#include "..\..\Source\vgr_StringIDs.pas"
+
+STRINGTABLE
+{
+  svgrResStringsBase + svgrid_vgr_SheetFormatDialog_InvalidSheetName, "Invalid sheet name - [%s]"
+  svgrResStringsBase + svgrid__vgr_SheetFormatDialog__vgrSheetFormatForm__Caption, "Sheet format"
+  svgrResStringsBase + svgrid__vgr_SheetFormatDialog__Label1__Caption, "Sheet &title:"
+  svgrResStringsBase + svgrid__vgr_SheetFormatDialog__Label2__Caption, "Sheet &name:"
+  svgrResStringsBase + svgrid__vgr_SheetFormatDialog__bOk__Caption, "OK"
+  svgrResStringsBase + svgrid__vgr_SheetFormatDialog__bCancel__Caption, "Cancel"
+}
+ 

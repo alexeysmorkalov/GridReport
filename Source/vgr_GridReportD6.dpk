@@ -1,0 +1,95 @@
+package vgr_GridReportD6;
+
+{$R *.res}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST ON}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'vtkTools GridReport (runtime)'}
+{$RUNONLY}
+{$IMPLICITBUILD OFF}
+
+requires
+  vcl,
+  rtl,
+  dbrtl,
+  vclx,
+  vcldb,
+  vgr_CommonControlsD6;
+
+contains
+  vgr_WorkbookGrid in 'vgr_WorkbookGrid.pas',
+  vgr_AXScript in 'vgr_AXScript.pas',
+  vgr_CommonClasses in 'vgr_CommonClasses.pas',
+  vgr_DataStorage in 'vgr_DataStorage.pas',
+  vgr_DataStorageRecords in 'vgr_DataStorageRecords.pas',
+  vgr_DataStorageTypes in 'vgr_DataStorageTypes.pas',
+  vgr_Keyboard in 'vgr_Keyboard.pas',
+  vgr_ScriptControl in 'vgr_ScriptControl.pas',
+  vgr_ScriptEdit in 'vgr_ScriptEdit.pas',
+  vgr_ScriptUtils in 'vgr_ScriptUtils.pas',
+  vgr_CellPropertiesDialog in 'vgr_CellPropertiesDialog.pas' {vgrCellPropertiesForm},
+  vgr_Dialogs in 'vgr_Dialogs.pas',
+  vgr_Report in 'vgr_Report.pas',
+  vgr_BandFormatDialog in 'vgr_BandFormatDialog.pas' {vgrBandFormatForm},
+  vgr_RowColSizeDialog in 'vgr_RowColSizeDialog.pas' {vgrRowColSizeForm},
+  vgr_SheetFormatDialog in 'vgr_SheetFormatDialog.pas' {vgrSheetFormatForm},
+  vgr_WorkbookDesigner in 'vgr_WorkbookDesigner.pas' {vgrWorkbookDesignerForm},
+  vgr_ReportDesigner in 'vgr_ReportDesigner.pas' {vgrReportDesignerForm},
+  vgr_WorkbookPreview in 'vgr_WorkbookPreview.pas',
+  vgr_ExcelFormula in 'vgr_ExcelFormula.pas',
+  vgr_PageProperties in 'vgr_PageProperties.pas',
+  vgr_WorkbookPainter in 'vgr_WorkbookPainter.pas',
+  vgr_Controls in 'vgr_Controls.pas',
+  vgr_FormulaCalculator in 'vgr_FormulaCalculator.pas',
+  vgr_PageMaker in 'vgr_PageMaker.pas',
+  vgr_PrinterComboBox in 'vgr_PrinterComboBox.pas',
+  vgr_Printer in 'vgr_Printer.pas',
+  vgr_AliasManagerDesigner in 'vgr_AliasManagerDesigner.pas' {vgrAliasManagerDesignerForm},
+  vgr_AliasManager in 'vgr_AliasManager.pas',
+  vgr_PageSetupDialog in 'vgr_PageSetupDialog.pas' {vgrPageSetupDialogForm},
+  vgr_WorkbookPreviewForm in 'vgr_WorkbookPreviewForm.pas',
+  vgr_PrintSetupDialog in 'vgr_PrintSetupDialog.pas' {vgrPrintSetupDialogForm},
+  vgr_PrintEngine in 'vgr_PrintEngine.pas',
+  vgr_ExcelFormula_iftab in 'vgr_ExcelFormula_iftab.pas',
+  vgr_Writers in 'vgr_Writers.pas',
+  vgr_BIFF8_Types in 'vgr_BIFF8_Types.pas',
+  vgr_ExcelConsts in 'vgr_ExcelConsts.pas',
+  vgr_ExcelTypes in 'vgr_ExcelTypes.pas',
+  vgr_CopyMoveSheetDialog in 'vgr_CopyMoveSheetDialog.pas' {vgrCopyMoveSheetDialogForm},
+  vgr_Event in 'vgr_Event.pas',
+  vgr_ReportOptionsDialog in 'vgr_ReportOptionsDialog.pas' {vgrReportOptionsDialogForm},
+  vgr_ScriptEventEditDialog in 'vgr_ScriptEventEditDialog.pas' {vgrScriptEventEditForm},
+  vgr_ScriptParser in 'vgr_ScriptParser.pas',
+  vgr_ScriptComponentsProvider in 'vgr_ScriptComponentsProvider.pas',
+  vgr_Form in 'vgr_Form.pas',
+  vgr_StringIDs in 'vgr_StringIDs.pas',
+  vgr_Localize in 'vgr_Localize.pas',
+  vgr_FormLocalizer in 'vgr_FormLocalizer.pas',
+  vgr_ReportGUIFunctions in 'vgr_ReportGUIFunctions.pas',
+  vgr_ReportFunctions in 'vgr_ReportFunctions.pas',
+  vgr_ReportAdd in 'vgr_ReportAdd.pas',
+  vgr_WBScriptConstants in 'vgr_WBScriptConstants.pas',
+  vgr_ReportSheetFormatDialog in 'vgr_ReportSheetFormatDialog.pas' {vgrReportSheetFormatForm},
+  vgr_ScriptGlobalFunctions in 'vgr_ScriptGlobalFunctions.pas',
+  vgr_HeaderFooterOptionsDialog in 'vgr_HeaderFooterOptionsDialog.pas' {vgrHeaderFooterOptionsDialogForm},
+  vgr_ScriptDispIDs in 'vgr_ScriptDispIDs.pas';
+
+end.

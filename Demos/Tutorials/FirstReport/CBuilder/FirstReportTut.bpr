@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="FirstReportTut.exe"/>
+    <OBJFILES value="FirstReportTut.obj FirstReportTutUnit.obj"/>
+    <RESFILES value="FirstReportTut.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) FirstReportTutUnit.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value=""/>
+    <SPARELIBS value="vcl.lib rtl.lib dbrtl.lib bdertl.lib vgr_GridReportBCB6.lib 
+      vgr_CommonControlsBCB6.lib"/>
+    <PACKAGES value="vcl.bpi rtl.bpi dbrtl.bpi adortl.bpi vcldb.bpi vclx.bpi bdertl.bpi 
+      vcldbx.bpi ibxpress.bpi dsnap.bpi cds.bpi bdecds.bpi qrpt.bpi teeui.bpi 
+      teedb.bpi tee.bpi dss.bpi teeqr.bpi visualclx.bpi visualdbclx.bpi 
+      dsnapcrba.bpi dsnapcon.bpi bcbsmp.bpi vclie.bpi xmlrtl.bpi inet.bpi 
+      inetdbbde.bpi inetdbxpress.bpi inetdb.bpi nmfast.bpi webdsnap.bpi 
+      bcbie.bpi websnap.bpi soaprtl.bpi dclocx.bpi dbexpress.bpi dbxcds.bpi 
+      indy.bpi bcb2kaxserver.bpi vgr_CommonControlsBCB6.bpi 
+      vgr_GridReportBCB6.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="_DEBUG"/>
+    <SYSDEFINES value="_RTLDLL;NO_STRICT;USEPACKAGES"/>
+    <MAINSOURCE value="FirstReportTut.cpp"/>
+    <INCLUDEPATH value="C:\vtktools\cvshome\GridReport\Source;$(BCB)\include;$(BCB)\include\vcl;C:\vtktools\cvshome\CommonControls\Source;C:\vtktools\cvshome\GridReport\Res"/>
+    <LIBPATH value="$(BCB)\Projects\Lib;C:\vtktools\cvshome\GridReport\Source;$(BCB)\lib\obj;$(BCB)\lib;C:\vtktools\cvshome\GridReport\Res;C:\vtktools\cvshome\CommonControls\Source"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-IC:\vtktools\cvshome\GridReport\Source -I$(BCB)\include 
+      -I$(BCB)\include\vcl -IC:\vtktools\cvshome\CommonControls\Source 
+      -IC:\vtktools\cvshome\GridReport\Res -src_suffix cpp -D_DEBUG -boa"/>
+    <CFLAG1 value="-Od -H=$(BCB)\lib\vcl60.csm -Hc -Vx -Ve -X- -r- -a8 -b- -k -y -v -vi- -c 
+      -tW -tWM"/>
+    <PFLAGS value="-$YD -$W -$O- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zd"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -x -Gn -v"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj $(PACKAGES) Memmgr.Lib sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mti.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="FirstReportTut.res" FORMNAME="" UNITNAME="FirstReportTut.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="FirstReportTut.cpp" FORMNAME="" UNITNAME="FirstReportTut" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="FirstReportTutUnit.cpp" FORMNAME="Form1" UNITNAME="FirstReportTutUnit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=0
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1049
+CodePage=1251
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[HistoryLists\hlIncludePath]
+Count=3
+Item0=C:\vtktools\cvshome\GridReport\Source;$(BCB)\include;$(BCB)\include\vcl;C:\vtktools\cvshome\CommonControls\Source;C:\vtktools\cvshome\GridReport\Res
+Item1=E:\Program Files\Borland\CBuilder6\Projects;C:\work\vtktools\GridReport\Demos\Tutorials\FirstReport\Builder;C:\work\vtktools\GridReport\Source;$(BCB)\include;$(BCB)\include\vcl;C:\work\vtktools\CommonControls\Source;C:\work\vtktools\GridReport\Res
+Item2=E:\Program Files\Borland\CBuilder6\Projects;C:\work\vtktools\GridReport\Demos\Tutorials\FirstReport\Builder;C:\work\vtktools\GridReport\Source;$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=3
+Item0=$(BCB)\Projects\Lib;C:\vtktools\cvshome\GridReport\Source;$(BCB)\lib\obj;$(BCB)\lib;C:\vtktools\cvshome\GridReport\Res;C:\vtktools\cvshome\CommonControls\Source
+Item1=E:\Program Files\Borland\CBuilder6\Projects;C:\work\vtktools\GridReport\Demos\Tutorials\FirstReport\Builder;$(BCB)\Projects\Lib;C:\work\vtktools\GridReport\Source;$(BCB)\lib\obj;$(BCB)\lib;C:\work\vtktools\GridReport\Res;C:\work\vtktools\CommonControls\Source
+Item2=E:\Program Files\Borland\CBuilder6\Projects;C:\work\vtktools\GridReport\Demos\Tutorials\FirstReport\Builder;$(BCB)\Projects\Lib;C:\work\vtktools\GridReport\Source;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=1
+Item0=_DEBUG
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+  </IDEOPTIONS>
+</PROJECT>

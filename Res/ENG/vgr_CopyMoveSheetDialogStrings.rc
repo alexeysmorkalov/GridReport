@@ -1,0 +1,12 @@
+#include "..\..\Source\vgr_StringIDs.pas"
+
+STRINGTABLE
+{
+  svgrResStringsBase + svgrid__vgr_CopyMoveSheetDialog__vgrCopyMoveSheetDialogForm__Caption, "Copy / Move sheet"
+  svgrResStringsBase + svgrid__vgr_CopyMoveSheetDialog__Label1__Caption, "&Move selected sheet before sheet:"
+  svgrResStringsBase + svgrid__vgr_CopyMoveSheetDialog__Label2__Caption, "Selected sheet:"
+  svgrResStringsBase + svgrid__vgr_CopyMoveSheetDialog__cbCreateCopy__Caption, "&Create copy"
+  svgrResStringsBase + svgrid__vgr_CopyMoveSheetDialog__bOk__Caption, "OK"
+  svgrResStringsBase + svgrid__vgr_CopyMoveSheetDialog__bCancel__Caption, "Cancel"
+}
+ 

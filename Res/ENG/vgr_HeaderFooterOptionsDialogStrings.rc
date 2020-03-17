@@ -1,0 +1,22 @@
+#include "..\..\Source\vgr_StringIDs.pas"
+
+STRINGTABLE
+{
+  svgrResStringsBase + svgrid__vgr_HeaderFooterOptionsDialog__vgrHeaderFooterOptionsDialogForm__Caption, "Header/Footer options"
+  svgrResStringsBase + svgrid__vgr_HeaderFooterOptionsDialog__Label1__Caption, "Left section:"
+  svgrResStringsBase + svgrid__vgr_HeaderFooterOptionsDialog__Label2__Caption, "Center section:"
+  svgrResStringsBase + svgrid__vgr_HeaderFooterOptionsDialog__Label3__Caption, "Right section:"
+  svgrResStringsBase + svgrid__vgr_HeaderFooterOptionsDialog__Label4__Caption, "To insert a page number, date, time or tab caption: position the insertion point in the edit box, then choose the appropriate button."
+  svgrResStringsBase + svgrid__vgr_HeaderFooterOptionsDialog__Label5__Caption, "Background color:"
+  svgrResStringsBase + svgrid__vgr_HeaderFooterOptionsDialog__bLeftFont__Caption, "Font..."
+  svgrResStringsBase + svgrid__vgr_HeaderFooterOptionsDialog__bCenterFont__Caption, "Font..."
+  svgrResStringsBase + svgrid__vgr_HeaderFooterOptionsDialog__bRightFont__Caption, "Font..."
+  svgrResStringsBase + svgrid__vgr_HeaderFooterOptionsDialog__bPage__Hint, "Page number"
+  svgrResStringsBase + svgrid__vgr_HeaderFooterOptionsDialog__bPageCount__Hint, "Number of pages"
+  svgrResStringsBase + svgrid__vgr_HeaderFooterOptionsDialog__bDate__Hint, "Current date"
+  svgrResStringsBase + svgrid__vgr_HeaderFooterOptionsDialog__bTime__Hint, "Current time"
+  svgrResStringsBase + svgrid__vgr_HeaderFooterOptionsDialog__bTab__Hint, "Caption of worksheet"
+  svgrResStringsBase + svgrid__vgr_HeaderFooterOptionsDialog__bOk__Caption, "OK"
+  svgrResStringsBase + svgrid__vgr_HeaderFooterOptionsDialog__bCancel__Caption, "Cancel"
+}
+ 

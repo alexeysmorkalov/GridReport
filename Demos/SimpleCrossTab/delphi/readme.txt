@@ -1,0 +1,1 @@
+This is a Simple CrossTab demo for Delphi.

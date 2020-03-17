@@ -1,0 +1,34 @@
+#include "..\..\Source\vgr_StringIDs.pas"
+
+STRINGTABLE
+{
+  svgrResStringsBase + svgrid_Common_MenuItemCut, "Cu&t"
+  svgrResStringsBase + svgrid_Common_MenuItemCopy, "&Copy"
+  svgrResStringsBase + svgrid_Common_MenuItemPaste, "&Paste"
+  svgrResStringsBase + svgrid_Common_Mm, "mm"
+  svgrResStringsBase + svgrid_Common_Inch, "in"
+
+  svgrResStringsBase + svgrid_Common_ColorButtonOther, "Other..."
+  svgrResStringsBase + svgrid_Common_ColorButtonNone, "Transparent"
+
+  svgrResStringsBase + svgrid_Common_vgrbsSolid, "Solid"
+  svgrResStringsBase + svgrid_Common_vgrbsDash, "Dash"
+  svgrResStringsBase + svgrid_Common_vgrbsDot, "Dot"
+  svgrResStringsBase + svgrid_Common_vgrbsDashDot, "Dash dot"
+  svgrResStringsBase + svgrid_Common_vgrbsDashDotDot, "Dash dot dot"
+
+  svgrResStringsBase + svgrid_Common_bsSolid "Solid"
+  svgrResStringsBase + svgrid_Common_bsClear, "Clear"
+  svgrResStringsBase + svgrid_Common_bsHorizontal, "Horizontal"
+  svgrResStringsBase + svgrid_Common_bsVertical, "Vertical"
+  svgrResStringsBase + svgrid_Common_bsFDiagonal, "FDiagonal"
+  svgrResStringsBase + svgrid_Common_bsBDiagonal, "BDiagonal"
+  svgrResStringsBase + svgrid_Common_bsCross, "Cross"
+  svgrResStringsBase + svgrid_Common_bsDiagCross, "DiagCross"
+
+  svgrResStringsBase + svgrid_Common_vgruMms, "Mms"
+  svgrResStringsBase + svgrid_Common_vgruCentimeters, "Centimeters"
+  svgrResStringsBase + svgrid_Common_vgruInches, "Inches"
+  svgrResStringsBase + svgrid_Common_vgruTenthsMMs, "1/10 of mms"
+  svgrResStringsBase + svgrid_Common_vgruPixels, "Pixels"
+}

@@ -1,0 +1,33 @@
+#include "..\..\Source\vgr_StringIDs.pas"
+
+STRINGTABLE
+{
+  svgrResStringsBase + svgrid_vgr_ReportDesigner_SaveChanges, "Save changes to '%s'?"
+  svgrResStringsBase + svgrid_vgr_ReportDesigner_NewTemplateCaption, "Template"
+  svgrResStringsBase + svgrid_vgr_ReportDesigner_ReportTabSheetCaption, "Template"
+  svgrResStringsBase + svgrid_vgr_ReportDesigner_TemplateOpenSaveDialogFilter, "GridReport templates (*.grt)|*.grt|All files (*.*)|*.*"
+  svgrResStringsBase + svgrid_vgr_ReportDesigner_TemplateOpenSaveDefaultExt, "grt"
+  svgrResStringsBase + svgrid_vgr_ReportDesigner_ReportTreeNodeCaption, "Report"
+  svgrResStringsBase + svgrid_vgr_ReportDesigner_HorzBandsTreeNodeCaption, "Horizontal bands"
+  svgrResStringsBase + svgrid_vgr_ReportDesigner_VertBandsTreeNodeCaption, "Vertical bands"
+  svgrResStringsBase + svgrid_vgr_ReportDesigner_Insert, "Insert"
+  svgrResStringsBase + svgrid_vgr_ReportDesigner_Overwrite, "Overwrite"
+  svgrResStringsBase + svgrid__vgr_ReportDesigner__tbScript__Caption, "Script"
+  svgrResStringsBase + svgrid__vgr_ReportDesigner__PScript__Caption, "Script"
+  svgrResStringsBase + svgrid__vgr_ReportDesigner__mInsertHorzBand__Caption, "&Horizontal band"
+  svgrResStringsBase + svgrid__vgr_ReportDesigner__mInsertVertBand__Caption, "&Vertical band"
+  svgrResStringsBase + svgrid__vgr_ReportDesigner__aReportOptions__Caption, "Report options..."
+  svgrResStringsBase + svgrid__vgr_ReportDesigner__aReportOptions__Hint, "Report options..."
+  svgrResStringsBase + svgrid__vgr_ReportDesigner__aFormatHorzBand__Caption, "&Horizontal band..."
+  svgrResStringsBase + svgrid__vgr_ReportDesigner__aFormatHorzBand__Hint, "Format horizontal band"
+  svgrResStringsBase + svgrid__vgr_ReportDesigner__aFormatVertBand__Caption, "&Vertical band..."
+  svgrResStringsBase + svgrid__vgr_ReportDesigner__aFormatVertBand__Hint, "Format vertical band"
+  svgrResStringsBase + svgrid__vgr_ReportDesigner__aSyntaxCheck__Caption, "Syntax check"
+  svgrResStringsBase + svgrid__vgr_ReportDesigner__aSyntaxCheck__Hint, "Syntax check"
+  svgrResStringsBase + svgrid__vgr_ReportDesigner__aProperties__Caption, "Properties..."
+  svgrResStringsBase + svgrid__vgr_ReportDesigner__aProperties__Hint, "Properties..."
+  svgrResStringsBase + svgrid__vgr_ReportDesigner__aDeleteEvent__Caption, "Delete event procedure"
+  svgrResStringsBase + svgrid__vgr_ReportDesigner__aDeleteEvent__Hint, "Delete event procedure"
+  svgrResStringsBase + svgrid__vgr_ReportDesigner__vgrReportDesignerForm__Caption, "vgrReportDesignerForm"
+}
+ 

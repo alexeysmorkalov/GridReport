@@ -1,0 +1,25 @@
+#include "..\..\Source\vgr_StringIDs.pas"
+
+STRINGTABLE
+{
+  svgrResStringsBase + svgrid_vgr_BandFormatDialog_InvalidBandName, "Invalid band name - [%s]"
+  svgrResStringsBase + svgrid_vgr_BandFormatDialog_InvalidBandStartPos, "Invalid band start position - [%s]"
+  svgrResStringsBase + svgrid_vgr_BandFormatDialog_InvalidBandEndPos, "Invalid band end position - [%s]"
+  svgrResStringsBase + svgrid_vgr_BandFormatDialog_InvalidBandPosition, "Invalid band position"
+  svgrResStringsBase + svgrid__vgr_BandFormatDialog__vgrBandFormatForm__Caption, "Band properties"
+  svgrResStringsBase + svgrid__vgr_BandFormatDialog__Label1__Caption, "Label1"
+  svgrResStringsBase + svgrid__vgr_BandFormatDialog__Label2__Caption, "&Band name:"
+  svgrResStringsBase + svgrid__vgr_BandFormatDialog__Label3__Caption, "&From:"
+  svgrResStringsBase + svgrid__vgr_BandFormatDialog__Label4__Caption, "&to"
+  svgrResStringsBase + svgrid__vgr_BandFormatDialog__Label5__Caption, "Data&set:"
+  svgrResStringsBase + svgrid__vgr_BandFormatDialog__Label6__Caption, "&Group expression:"
+  svgrResStringsBase + svgrid__vgr_BandFormatDialog__PCommon__Caption, "&Common"
+  svgrResStringsBase + svgrid__vgr_BandFormatDialog__PData__Caption, "&Data"
+  svgrResStringsBase + svgrid__vgr_BandFormatDialog__cbSkipGenerate__Caption, "&Skip generate"
+  svgrResStringsBase + svgrid__vgr_BandFormatDialog__GroupBox1__Caption, " Position: "
+  svgrResStringsBase + svgrid__vgr_BandFormatDialog__bOk__Caption, "OK"
+  svgrResStringsBase + svgrid__vgr_BandFormatDialog__bCancel__Caption, "Cancel"
+  svgrResStringsBase + svgrid__vgr_BandFormatDialog__cbRowColAutoSize__Caption, "&Auto size for rows or columns"
+  svgrResStringsBase + svgrid__vgr_BandFormatDialog__cbCreateSections__Caption, "&Create sections"
+}
+ 

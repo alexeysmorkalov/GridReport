@@ -1,0 +1,11 @@
+#include "..\..\Source\vgr_StringIDs.pas"
+
+STRINGTABLE
+{
+  svgrResStringsBase + svgrid__vgr_ScriptEventEditDialog__vgrScriptEventEditForm__Caption, "Определить процедуру"
+  svgrResStringsBase + svgrid__vgr_ScriptEventEditDialog__Label1__Caption, "&Имя процедуры:"
+  svgrResStringsBase + svgrid__vgr_ScriptEventEditDialog__Label2__Caption, "Источник:"
+  svgrResStringsBase + svgrid__vgr_ScriptEventEditDialog__bOK__Caption, "ОК"
+  svgrResStringsBase + svgrid__vgr_ScriptEventEditDialog__bCancel__Caption, "Отмена"
+}
+ 

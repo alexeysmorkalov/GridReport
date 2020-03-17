@@ -1,0 +1,44 @@
+package vgr_dsgnGridReportD7;
+
+{$R *.res}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'vtkTools GridReport'}
+{$DESIGNONLY}
+{$IMPLICITBUILD OFF}
+
+requires
+  rtl,
+  vcl,
+  designide,
+  vclactnband,
+  vgr_GridReportD7,
+  dbrtl;
+
+contains
+  vgr_PropertyEditors in 'vgr_PropertyEditors.pas',
+  vgr_Reg in 'vgr_Reg.pas',
+  vgr_IDEAddon in 'vgr_IDEAddon.pas',
+  vgr_LocalizeExpertForm in 'vgr_LocalizeExpertForm.pas' {vgrLocalizeExpertForm},
+  vgr_LocalizerExpertReportForm in 'vgr_LocalizerExpertReportForm.pas' {vgrLocalizerExpertReportForm};
+
+end.

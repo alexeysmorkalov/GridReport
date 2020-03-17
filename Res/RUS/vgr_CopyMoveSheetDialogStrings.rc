@@ -1,0 +1,12 @@
+#include "..\..\Source\vgr_StringIDs.pas"
+
+STRINGTABLE
+{
+  svgrResStringsBase + svgrid__vgr_CopyMoveSheetDialog__vgrCopyMoveSheetDialogForm__Caption, "Переместить/скопировать"
+  svgrResStringsBase + svgrid__vgr_CopyMoveSheetDialog__Label1__Caption, "&Разместить перед листом:"
+  svgrResStringsBase + svgrid__vgr_CopyMoveSheetDialog__Label2__Caption, "Лист:"
+  svgrResStringsBase + svgrid__vgr_CopyMoveSheetDialog__cbCreateCopy__Caption, "Создать &копию"
+  svgrResStringsBase + svgrid__vgr_CopyMoveSheetDialog__bOk__Caption, "ОК"
+  svgrResStringsBase + svgrid__vgr_CopyMoveSheetDialog__bCancel__Caption, "Отмена"
+}
+ 

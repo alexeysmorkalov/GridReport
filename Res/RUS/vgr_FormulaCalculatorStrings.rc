@@ -1,0 +1,12 @@
+#include "..\..\Source\vgr_StringIDs.pas"
+
+STRINGTABLE
+{
+  svgrResStringsBase + svgrid_vgr_FormulaCalculator_StackPopError, "Ошибка при извлечении из стека"
+  svgrResStringsBase + svgrid_vgr_FormulaCalculator_InvalidOperandType, "Некорректный тип операнда - [%s]"
+  svgrResStringsBase + svgrid_vgr_FormulaCalculator_InvalidOperands, "Некорректные операнды"
+  svgrResStringsBase + svgrid_vgr_FormulaCalculator_DivideByZero, "Деление на ноль"
+  svgrResStringsBase + svgrid_vgr_FormulaCalculator_InvalidFunctionIndex, "Некорректный индекс функции - [%d]"
+  svgrResStringsBase + svgrid_vgr_FormulaCalculator_InvalidFunctionParamsCount, "Некорректное количество параметров в функции - [%d] (должно быть - от %d до %d)"
+  svgrResStringsBase + svgrid_vgr_FormulaCalculator_InvalidCellReference, "Некорректная ссылка на ячейку"
+}

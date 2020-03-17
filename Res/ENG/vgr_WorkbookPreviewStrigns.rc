@@ -1,0 +1,23 @@
+#include "..\..\Source\vgr_StringIDs.pas"
+
+STRINGTABLE
+{
+  svgrResStringsBase + svgrid_vgr_WorkbookPreview_MenuItemZoomPageWidth, "Page width"
+  svgrResStringsBase + svgrid_vgr_WorkbookPreview_MenuItemZoomWholePage, "Whole page"
+  svgrResStringsBase + svgrid_vgr_WorkbookPreview_MenuItemZoom100Percent, "Real size"
+  svgrResStringsBase + svgrid_vgr_WorkbookPreview_MenuItemPriorPage, "Prior page"
+  svgrResStringsBase + svgrid_vgr_WorkbookPreview_MenuItemNextPage, "Next page"
+  svgrResStringsBase + svgrid_vgr_WorkbookPreview_MenuItemPrint, "Print..."
+  svgrResStringsBase + svgrid_vgr_WorkbookPreview_MenuItemPageParams, "Page params..."
+  svgrResStringsBase + svgrid_vgr_WorkbookPreview_MenuItemZoomInTool, "Zoom In Tool"
+  svgrResStringsBase + svgrid_vgr_WorkbookPreview_MenuItemZoomOutTool, "Zoom Out Tool"
+  svgrResStringsBase + svgrid_vgr_WorkbookPreview_MenuItemHandTool, "Hand Tool"
+  svgrResStringsBase + svgrid_vgr_WorkbookPreview_MenuItemNoneTool, "Default"  
+  svgrResStringsBase + svgrid_vgr_WorkbookPreview_Hint_LeftMargin, "Left Margin"
+  svgrResStringsBase + svgrid_vgr_WorkbookPreview_Hint_RightMargin, "Right Margin"
+  svgrResStringsBase + svgrid_vgr_WorkbookPreview_Hint_TopMargin, "Top Margin"
+  svgrResStringsBase + svgrid_vgr_WorkbookPreview_Hint_BottomMargin, "Bottom Margin"
+  svgrResStringsBase + svgrid_vgr_WorkbookPreview_MenuItemZoomTwoPages, "Two Pages"
+  svgrResStringsBase + svgrid__vgr_WorkbookPreview__Hint__Header, "Header"
+  svgrResStringsBase + svgrid__vgr_WorkbookPreview__Hint__Footer, "Footer"
+}

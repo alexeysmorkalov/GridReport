@@ -1,0 +1,8 @@
+#include "..\..\Source\vgr_StringIDs.pas"
+
+STRINGTABLE
+{
+  svgrResStringsBase + svgrid__vgr_RowColSizeDialog__bOk__Caption, "OK"
+  svgrResStringsBase + svgrid__vgr_RowColSizeDialog__bCancel__Caption, "Cancel"
+}
+ 

@@ -1,0 +1,6 @@
+#include "..\..\Source\vgr_StringIDs.pas"
+
+STRINGTABLE
+{
+  svgrResStringsBase + svgrid__vgr_PrinterComboBox__NoInstalledPrinters, "No printers installed"
+}
